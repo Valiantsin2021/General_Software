@@ -4,7 +4,7 @@ class GooglePage extends Page {
    * define selectors using getter methods
    */
   get searchInput() {
-    return $('//input[@name="q"]')
+    return $('//*[@name="q"]')
   }
   get acceptCookiesBtn() {
     return $('#L2AGLb')

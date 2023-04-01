@@ -4,17 +4,17 @@
 
 - [@Valiantsin2021](https://www.github.com/Valiantsin2021) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-## This repository purpose is to functional test automation of [google] https://www.google.com/
+## This repository purpose is automation of functional test of [Google.es](https://www.google.es/)
 
-## Test report page can be found on https://valiantsin2021.github.io/General_Software/
+## Test report page can be found on [Allure report](https://valiantsin2021.github.io/General_Software/)
 
-## Before the test run make sure to update local browsers versions to latest
+## Before the test run make sure to update local browsers versions to latest and have NodeJS, npm and Java (for selenium standalone and allure report) installed
 
 ## The test suite purpose is to perform the following assertions:
 
 The basic steps flow to test the steps:
 
-1. Visit https://www.google.com
+1. Visit https://www.google.es
 2. Accept cookies modal and assert the page url and title
 3. Perform search with the parametrized search string
 4. Assert the number of the returned search results is not less than parametrized low search results number
@@ -46,7 +46,7 @@ The basic steps flow to test the steps:
    - to open report run : allure open
    - to run headless with Chrome: npm run test
    - to run headed with Chrome: npm run test:headed
-   - report is created in folder allure-report (should be opened via live server plugin in VSCode)
+   - report is created in folder allure-report (index.html should be opened via live server plugin in VSCode)
 
 ## 🔗 Links
 
