@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Apr 01 07:34:08 UTC 2023","Sat Apr 01 07:34:08 UTC 2023","847","","Should open Google page and perform positive and negative test for searching 'Apple'","","","","Opens Google page, accepts cookies and assert the opened page is correct",""
-"passed","Sat Apr 01 07:34:11 UTC 2023","Sat Apr 01 07:34:12 UTC 2023","594","","Should open Google page and perform positive and negative test for searching 'Apple'","","","","checks the search results are more than '100000'",""
-"passed","Sat Apr 01 07:34:09 UTC 2023","Sat Apr 01 07:34:09 UTC 2023","731","","Should open Google page and perform positive and negative test for searching 'Apple'","","","","checks the search result are not lower than '10000'",""
+"passed","Sun Apr 16 09:43:49 UTC 2023","Sun Apr 16 09:43:50 UTC 2023","811","","Should open Google page and perform positive and negative test for searching 'Apple'","","","","checks the search result are not lower than '10000'",""
+"passed","Sun Apr 16 09:43:43 UTC 2023","Sun Apr 16 09:43:49 UTC 2023","5315","","Should open Google page and perform positive and negative test for searching 'Apple'","","","","Opens Google page, accepts cookies and assert the opened page is correct",""
+"passed","Sun Apr 16 09:43:52 UTC 2023","Sun Apr 16 09:43:53 UTC 2023","571","","Should open Google page and perform positive and negative test for searching 'Apple'","","","","checks the search results are more than '100000'",""
