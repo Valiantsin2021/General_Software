@@ -21,7 +21,7 @@ exports.config = {
   suites: {
     google: ['./test/specs/**.e2e.js']
   },
-  maxInstances: 1,
+  maxInstances: 2,
   capabilities: [caps],
   // Level of logging verbosity: trace | debug | info | warn | error | silent
   logLevel: 'warn',
@@ -73,13 +73,12 @@ exports.config = {
           await searchResultsString.getText()
         )
         console.log(await parsedResult)
-        let number = parseInt(
-          (await parsedResult)
-            .replace('Aproximadamente', '')
-            .replace('About', '')
-            .replaceAll('.', '')
-            .replaceAll(',', '')
-        )
+        let numStr = (await parsedResult)
+          .replaceAll(' ', '')
+          .replaceAll('.', '')
+          .replaceAll(',', '')
+          .match(/\d{5,}/)[0]
+        let number = parseInt(await numStr)
         console.log(number)
         return number
       }
