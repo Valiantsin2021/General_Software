@@ -1,0 +1,39 @@
+[
+    {
+        "name": "SOCS",
+        "value": "CAAaBgiAgryiBg",
+        "expires": "2024-05-30T11:14:35.000Z",
+        "path": "/",
+        "domain": ".google.es",
+        "secure": true,
+        "sameSite": "lax"
+    },
+    {
+        "name": "AEC",
+        "value": "AUEFqZeiIYwcZkUXo-EalP-Z5yBcQtPnfuGHOEtZ3wPpYs3pGzizwqTtaQ",
+        "expires": "2023-10-28T11:14:35.000Z",
+        "path": "/",
+        "domain": ".google.es",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "lax"
+    },
+    {
+        "name": "__Secure-ENID",
+        "value": "12.SE=pZY9eVpJ1COBW80Z2jeU0ipzFVZtdYSlnOFkmwF3NY4GoOKAnYuUPjThZu9-1r2tHo6IX4AobMZ_hSu47yihxiFN0s1aEfr2HhA_0jLqkwMuq-5zqh7Zcz9IbrlqX8hyd46cjzQHVOpXsJjIJ-UPoPuLsC4pii0LabIUeQXT6Eg",
+        "expires": "2024-05-31T03:32:53.000Z",
+        "path": "/",
+        "domain": ".google.es",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "lax"
+    },
+    {
+        "name": "CONSENT",
+        "value": "PENDING+559",
+        "expires": "2025-04-30T11:14:35.000Z",
+        "path": "/",
+        "domain": ".google.es",
+        "secure": true
+    }
+]
